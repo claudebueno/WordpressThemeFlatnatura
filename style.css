@@ -887,6 +887,7 @@ body.single .entry-header {
 
 body.page .entry-title,
 body.single .entry-title {
+	font-family: Oswald;
 	font-weight: 400;
 }
 
@@ -909,6 +910,9 @@ body.single .entry-title {
 
 /* Entry Footer */
 .entry-footer {
+    color: #B7A997;
+    font-size: 13px;
+    font-family: Oswald,Arial,Helvetica,sans-serif;
 	margin: 25px -30px -25px;
 	padding: 15px 30px;
 	background: #f4f3ea;
