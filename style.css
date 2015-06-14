@@ -1,9 +1,5 @@
 /*
-<<<<<<< HEAD
 Theme Name: Flat Natura (Underscores) by Claude
-=======
-Theme Name: FlatNatura (Underscores) by Claude
->>>>>>> origin/master
 Theme URI: http://www.claudebueno.com/
 Author: Claude BUENO
 Author URI: http://www.claudebueno.com/
@@ -1061,7 +1057,7 @@ body.single .entry-title {
 /* Single post navigation */
 .site-main .post-navigation {
 	margin: 0 0 30px;
-	padding: 15px 20px;
+	padding: 5px 20px 100px;
 	background: #fff;
 	border: solid #e2ddd0;
 	border-width: 0 1px 1px 0;
@@ -1073,7 +1069,7 @@ body.single .entry-title {
 .site-main .post-navigation a {
 	display: block;
 	color: #45636D;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	font-family: "Noto Serif", Georgia, Times, serif;
 	text-transform: none;
@@ -1487,4 +1483,8 @@ box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 	.site-credit {
 		text-align: center;
 	}
+}
+
+.screen-reader-text {
+	font-size:18px;
 }
