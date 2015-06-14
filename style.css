@@ -1,5 +1,5 @@
 /*
-Theme Name: FlatNatura
+Theme Name: Flat Natura (Underscores) by Claude
 Theme URI: http://www.claudebueno.com/
 Author: Claude BUENO
 Author URI: http://www.claudebueno.com/
@@ -49,6 +49,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ==========================================================================
    General
    ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 body {
 	/* color: #706658;  */
