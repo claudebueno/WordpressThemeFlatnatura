@@ -1109,6 +1109,9 @@ body.single .entry-title {
 .site-main .comment-navigation a:focus {
 	background: #5a442f;
 }
+.comments-link {
+	padding-left: 10px;
+}
 
 /* Comments
    ========================================================================== */
