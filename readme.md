@@ -1,5 +1,5 @@
 #=== FlatNatura ===
-## WordPress Theme 100% responsive
+## Hi. I'm a awsome Wordpress theme called FlatNatura. I'm 100% responsive.
 
 Contributor: Claude BUENO
 
