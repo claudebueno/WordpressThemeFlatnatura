@@ -77,7 +77,7 @@ function flatnatura_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="byline"><i class="fa fa-user"></i>%1$s</span><span class="posted-on"><i class="fa fa-calendar"></i>%2$s</span>', 'themememe' ),
+	printf( __( '<span class="byline"><i class="fa fa-user"></i>%1$s</span><span class="posted-on"><i class="fa fa-calendar"></i>%2$s</span>', 'flatnatura' ),
 		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s">%2$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			esc_html( get_the_author() )

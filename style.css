@@ -1492,3 +1492,12 @@ box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 	font-size:18px;
 	color: #4F4F4F;
 }
+
+/* ========= Post footer ========= */
+
+.tags-links {
+    padding-left: 10px;
+}
+.edit-link {
+    padding-left: 10px;
+}
