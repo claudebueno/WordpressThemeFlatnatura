@@ -5,12 +5,11 @@ Contributor: Claude BUENO
 
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
-
 Requires at least: 4.0
 
-Tested up to: 4.2.2
+Tested up to: 4.4.1
 
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 
 License: GPLv2 or later
 
@@ -45,6 +44,9 @@ FlatNatura includes support for Infinite Scroll in Jetpack.
 
 = 1.0.0 - May 31 2015 =
 * Initial release
+= 1.1.0 - January 24 2016 =
+* Improvement of styles
+* Adding full-width page
 
 ###== Credits ==
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)

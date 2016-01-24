@@ -1,10 +1,10 @@
 /*
-Theme Name: Flat Natura (Underscores) by Claude
+Theme Name: Flat Natura by Claude
 Theme URI: http://www.claudebueno.com/
 Author: Claude BUENO
 Author URI: http://www.claudebueno.com/
-Description: A Wordpress theme based on underscores. The theme is 100% responsive.
-Version: 1.0.0
+Description: A Wordpress theme based on underscores. The theme is 100% responsive. Multilanguages ready. Full width page.
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: flatnatura
@@ -46,31 +46,27 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
    General
    ========================================================================== */
 
-/* ==========================================================================
-   General
-   ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Noto Serif);
 
 body {
-	/* color: #706658;  */
 	color: #45636D;
 	font-size: 16px;
-	font-family: Ubuntu, Georgia, Times, serif;
+	font-family: 'Ubuntu', Georgia, Times, serif;
 	line-height: 1.4;
-	/*background: #ebe7da url('img/bg-texture.jpg');*/
 	background-color: #8cafb6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	}
 blockquote p {
 	color: #b7a997;
 	font-size: 18px;
 	font-style: italic;
-	font-family: "Noto Serif", Georgia, Times, serif;
+	font-family: 'Noto Serif', Georgia, Times, serif;
 	line-height: 1.6;
 }
 blockquote cite {
@@ -81,9 +77,6 @@ blockquote cite {
 	font-weight: 700;
 }
 pre {
-	/*background: #f7f7f7;
-	border-radius: 0;
-	border: 2px solid #e2e2e2;*/
     font-size: 14px;
     -moz-hyphens: none;
     white-space: pre-wrap;
@@ -180,12 +173,12 @@ input[type="submit"] {
 	color: #fff;
 	font-size: 13px;
 	font-weight: 700;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 2px;
 	border-radius: 3px;
-	background: #C1BEB5;
+	background: #4C3A2A;
 }
 input[type="reset"] {
 	color: #333;
@@ -332,15 +325,15 @@ html[xmlns] .flexslider .slides {
 
 /* Caption style */
 .flex-caption {
-    position: absolute;
+  position: absolute;
 	left: 0;
 	right: 0;
-    bottom: 0;
-    padding: 20px 30px;
+  bottom: 0;
+  padding: 20px 30px;
 	font-size: 14px;
 	line-height: 1.5;
-    background: rgba(255, 255, 255, .5);
-    z-index: 1;
+  background: rgba(255, 255, 255, .5);
+  z-index: 1;
  }
 
 /* Direction nav */
@@ -399,28 +392,28 @@ html[xmlns] .flexslider .slides {
 
 /* Control Nav */
 .flex-control-nav {
-    margin: 20px 0 0;
+  margin: 20px 0 0;
 	padding: 0!important;
 	text-align: center;
-    list-style: none;
+  list-style: none;
 	line-height: 1;
 }
 .flex-control-nav li {
-    margin: 0 0 0 5px!important;
-    display: inline-block;
-    text-indent: -999em;
-    zoom: 1;
+  margin: 0 0 0 5px!important;
+  display: inline-block;
+  text-indent: -999em;
+	zoom: 1;
 }
 .flex-control-nav li a {
-    width: 12px;
-    height: 12px;
-    display: block;
-    cursor: pointer;
+  width: 12px;
+  height: 12px;
+  display: block;
+  cursor: pointer;
 	text-decoration: none;
-    text-indent: -999em;
-    background: #e2e2e2;
-    background: rgba(0, 0, 0, .1);
-    border-radius: 50%;
+  text-indent: -999em;
+  background: #e2e2e2;
+  background: rgba(0, 0, 0, .1);
+  border-radius: 50%;
 }
 .flex-control-nav li a:hover {
 	background: rgba(0, 0, 0, .25);
@@ -604,10 +597,7 @@ html[xmlns] .flexslider .slides {
 	background-color: #C4674B;
 	border: solid #D3DEE2;
 	border-width: 0 0 1px 0;
-	/*background: #4c3a2a url('img/bg-wood.jpg') repeat-x;
-	border: solid #341e06;
-	border-width: 1px 0;
-	-webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4);
+	/* -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4);
 	   -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4);
 			box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4); */
 }
@@ -637,7 +627,7 @@ html[xmlns] .flexslider .slides {
 	margin: 0;
 	font-size: 53px;
 	font-weight: 900;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1;
@@ -720,7 +710,7 @@ html[xmlns] .flexslider .slides {
 		font-size: 12px;
 		letter-spacing: 1.4px;
 		font-weight: 400;
-		font-family: Oswald, Arial, Helvetica, sans-serif;
+		font-family: 'Oswald', Arial, Helvetica, sans-serif;
 		text-transform: uppercase;
 	}
 	.menu-bar ul ul li a {
@@ -890,7 +880,7 @@ body.single .entry-header {
 
 body.page .entry-title,
 body.single .entry-title {
-	font-family: Oswald;
+	font-family: 'Oswald';
 	font-weight: 400;
 }
 
@@ -898,7 +888,7 @@ body.single .entry-title {
 .entry-meta {
 	color: #b7a997;
 	font-size: 13px;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
 .entry-meta a {
 	color: #B7A997;
@@ -915,7 +905,7 @@ body.single .entry-title {
 .entry-footer {
     color: #B7A997;
     font-size: 13px;
-    font-family: Oswald,Arial,Helvetica,sans-serif;
+    font-family: 'Oswald',Arial,Helvetica,sans-serif;
 	margin: 25px -30px -25px;
 	padding: 15px 30px;
 	background: #f4f3ea;
@@ -997,6 +987,20 @@ body.single .entry-title {
 .page-header {
 	margin: 0 0 30px;
 	border: none;
+
+	margin: 0px 0px 25px;
+padding: 15px 30px;
+background: #F2EBE3 none repeat scroll 0% 0%;
+border-style: solid;
+border-color: #E2DDD0;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-width: 0px 1px 1px 0px;
+border-radius: 5px;
+box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 }
 .page-title {
 	margin: 0 0 5px;
@@ -1081,7 +1085,7 @@ body.single .entry-title {
 	color: #45636D;
 	font-size: 16px;
 	font-weight: 400;
-	font-family: "Noto Serif", Georgia, Times, serif;
+	font-family: 'Noto Serif', Georgia, Times, serif;
 	text-transform: none;
 	letter-spacing: normal;
 	line-height: 1.5;
@@ -1098,7 +1102,7 @@ body.single .entry-title {
 	color: #45636D;
 	font-size: 13px;
 	font-weight: 700;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -1162,7 +1166,7 @@ body.single .entry-title {
 	overflow: hidden;
 	color: #999;
 	font-size: 13px;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 }
 .comment-meta a {
@@ -1412,18 +1416,16 @@ a#cancel-comment-reply-link:before {
    ========================================================================== */
 .site-sidebar {
 	background: #F2EBE3;
-			padding: 25px 30px;
-		border-color: #E2DDD0;
--moz-border-top-colors: none;
--moz-border-right-colors: none;
--moz-border-bottom-colors: none;
--moz-border-left-colors: none;
-border-image: none;
-border-width: 0px 1px 1px 0px;
-border-radius: 5px;
-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
-
-
+	padding: 25px 30px;
+	border-color: #E2DDD0;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  border-width: 0px 1px 1px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 	font-size: 14px;
 	line-height: 1.6;
 }
@@ -1452,7 +1454,6 @@ box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 .site-extra {
 	font-size: 14px;
 	line-height: 1.6;
-	/* background: rgba(76, 58, 42, .15); */
 	background-color: #171E20;
 }
 .site-extra .container {
@@ -1477,11 +1478,6 @@ box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
 	color: #999;
 	color: rgba(255, 255, 255, .7);
 	font-size: 13px;
-	/*background: #4c3a2a;
-	border-top: 1px solid #341e06;
-	-webkit-box-shadow: inset 0 10px 20px 0 rgba(0, 0, 0, .4);
-	   -moz-box-shadow: inset 0 10px 20px 0 rgba(0, 0, 0, .4);
-			box-shadow: inset 0 10px 20px 0 rgba(0, 0, 0, .4); */
 	background-color: #C4674B;
 }
 .site-footer .container {

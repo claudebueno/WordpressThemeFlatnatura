@@ -1,7 +1,6 @@
 <?php
 /**
  * The sidebar in the footer.
- *
  * @package FlatNatura
  */
 

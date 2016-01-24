@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying all single pages with sidebar.
+ * Template Name: Full-width page
+ * The template for displaying full with pages.
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -13,7 +14,7 @@
 get_header(); ?>
 
 	<div class="row">
-		<div class="col-md-8 content-area" role="main">
+		<div class="col-md-12 content-area" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -29,6 +30,6 @@ get_header(); ?>
 			<?php endwhile; // End of the loop. ?>
 
 		</div><!-- #main -->
-<?php get_sidebar(); ?>
+
         </div><!-- #primary -->
 <?php get_footer(); ?>
