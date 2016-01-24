@@ -33,7 +33,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+			<?php flatnatura_content_nav(); ?>
 
 		<?php else : ?>
 

@@ -322,10 +322,10 @@ img[class*="attachment-"] {
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
-} 
+}
 html[xmlns] .flexslider .slides {
 	display: block;
-} 
+}
 * html .flexslider .slides {
 	height: 1%;
 }
@@ -344,7 +344,7 @@ html[xmlns] .flexslider .slides {
  }
 
 /* Direction nav */
-.flex-direction-nav {	
+.flex-direction-nav {
 	position: absolute;
 	left: 20px;
 	right: 20px;
@@ -406,21 +406,21 @@ html[xmlns] .flexslider .slides {
 	line-height: 1;
 }
 .flex-control-nav li {
-    margin: 0 0 0 5px!important; 
+    margin: 0 0 0 5px!important;
     display: inline-block;
     text-indent: -999em;
-    zoom: 1; 
+    zoom: 1;
 }
 .flex-control-nav li a {
-    width: 12px; 
-    height: 12px; 
+    width: 12px;
+    height: 12px;
     display: block;
-    cursor: pointer; 
+    cursor: pointer;
 	text-decoration: none;
-    text-indent: -999em; 
-    background: #e2e2e2; 
-    background: rgba(0, 0, 0, .1); 
-    border-radius: 50%; 
+    text-indent: -999em;
+    background: #e2e2e2;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
 }
 .flex-control-nav li a:hover {
 	background: rgba(0, 0, 0, .25);
@@ -551,7 +551,7 @@ html[xmlns] .flexslider .slides {
 	-webkit-overflow-scrolling: touch;
 }
 
-/*	nativeMobile override */ 
+/*	nativeMobile override */
 .dk_mobile {
 	position: relative;
 }
@@ -672,9 +672,9 @@ html[xmlns] .flexslider .slides {
 	color: #b7a997;
 	color: rgba(255, 255, 255, .7);
 }
-.menu-bar ul li > a:hover, 
-.menu-bar ul li:hover > a, 
-.menu-bar ul li.current_page_item > a, 
+.menu-bar ul li > a:hover,
+.menu-bar ul li:hover > a,
+.menu-bar ul li.current_page_item > a,
 .menu-bar ul li.current-menu-item > a,
 .menu-bar ul li.current-menu-ancestor > a,
 .menu-bar ul li.current_page_ancestor > a,
@@ -727,7 +727,7 @@ html[xmlns] .flexslider .slides {
 		padding: 10px 20px;
 		font-size: 13px;
 	}
-	.menu-bar ul ul li > a:hover, 
+	.menu-bar ul ul li > a:hover,
 	.menu-bar ul ul li:hover > a {
 		background: #4c3a2a;
 		background: rgba(0, 0, 0, .15);
@@ -901,7 +901,7 @@ body.single .entry-title {
 	font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 .entry-meta a {
-	color: #b7a997;
+	color: #B7A997;
 }
 .entry-meta a:hover,
 .entry-meta a:focus {
@@ -922,6 +922,16 @@ body.single .entry-title {
 	-webkit-box-shadow: inset 0 1px 10px 0 rgba(0, 0, 0, .075);
 	   -moz-box-shadow: inset 0 1px 10px 0 rgba(0, 0, 0, .075);
 			box-shadow: inset 0 1px 10px 0 rgba(0, 0, 0, .075);
+}
+.entry-footer a {
+	color: #b7a997;
+}
+.entry-footer a:hover,
+.entry-footer a:focus {
+	color: #794522;
+	text-decoration: none;
+}
+.entry-footer a:visited {
 }
 
 /* Entry Meta Icons */
@@ -1045,7 +1055,7 @@ body.single .entry-title {
 	font-size: 14px;
 	line-height: 1.2;
 	text-decoration: none;
-	background: #418f42;
+	background: #4C3A2A;
 	border-radius: 3px;
 }
 .site-main [class*="navigation"] a:hover,
@@ -1057,7 +1067,7 @@ body.single .entry-title {
 /* Single post navigation */
 .site-main .post-navigation {
 	margin: 0 0 30px;
-	padding: 5px 20px 100px;
+	padding: 5px 20px 10px;
 	background: #fff;
 	border: solid #e2ddd0;
 	border-width: 0 1px 1px 0;
@@ -1169,9 +1179,18 @@ body.single .entry-title {
 .comment-author {
 	display: block;
 	color: #333;
-	font-weight: 700;
+	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+}
+.comment-author a {
+	color: #CC7E5E;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.comment-author img {
+	 -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%;
+	 width: 45px; height: 45px;
+	 border: 1px #e7e7e7; padding: 2px;
 }
 .comment-footer .edit-link {
 	margin-right: 15px;
@@ -1335,7 +1354,7 @@ a#cancel-comment-reply-link:before {
 	text-align: center;
 	vertical-align: baseline;
 }
-.widget_archive ul li:before { content: "\f073"; } 
+.widget_archive ul li:before { content: "\f073"; }
 .widget_categories ul li:before { content: "\f07c"; }
 .widget_links ul li:before { content: "\f08e"; }
 .widget_meta ul li:before { content: "\f0da"; }
@@ -1403,8 +1422,8 @@ border-image: none;
 border-width: 0px 1px 1px 0px;
 border-radius: 5px;
 box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.03);
-	
-	
+
+
 	font-size: 14px;
 	line-height: 1.6;
 }

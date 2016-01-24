@@ -1,7 +1,6 @@
 <?php
 /**
  * FlatNatura functions and definitions
- *
  * @package FlatNatura
  */
 
