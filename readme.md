@@ -44,6 +44,7 @@ FlatNatura includes support for Infinite Scroll in Jetpack.
 
 = 1.0.0 - May 31 2015 =
 * Initial release
+
 = 1.1.0 - January 24 2016 =
 * Improvement of styles
 * Adding full-width page
