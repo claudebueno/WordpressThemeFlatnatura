@@ -36,18 +36,17 @@ Hi. I'm a awsome Wordpress theme called FlatNatura. I'm 100% responsive.
 ###== Frequently Asked Questions ==
 
 Does this theme support any plugins?
-
-FlatNatura includes support for Infinite Scroll in Jetpack.
+* FlatNatura includes support for Infinite Scroll in Jetpack.
 
 
 ###== Changelog ==
 
-= 1.0.0 - May 31 2015 =
-* Initial release
-
 = 1.1.0 - January 24 2016 =
 * Improvement of styles
 * Adding full-width page
+
+= 1.0.0 - May 31 2015 =
+* Initial release
 
 ###== Credits ==
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
